@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: java-maven-app
+  description: A simple app that prints "Hello world!"
+  tags:
+    - maven
+    - java
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: EMC-Backstage/kotlin
+spec:
+  type: language
+  lifecycle: development
+  owner: EMC-Backstage
+  system: andriod language
