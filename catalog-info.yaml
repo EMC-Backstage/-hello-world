@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: java-maven-app
+  name: hello-world
   description: A simple app that prints "Hello world!"
   tags:
     - maven
